@@ -1,0 +1,25 @@
+#main-container {
+  width: 900px;
+  height: 800px;
+  margin: auto;
+}
+
+#canvas-container {
+  display: inline-block;
+  width: 800px;
+  height: 800px;
+  float: left;
+}
+
+#buttons-container {
+  display: inline-block;
+  width: 80px;
+  padding: 40px 10px;
+  height: 800px;
+  overflow: hidden;
+}
+
+button {
+  padding: 15px;
+  width: 80px;
+}

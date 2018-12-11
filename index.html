@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Flight control simulator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="description" content="A simple training exercise for air traffic control professionals written in JavaScript and HTML5 Canvas">
+    <meta name="keywords" content="JavaScript flight control simulator atc air traffic closest airplane approach">
+    <meta name="author" content="Wojciech Komór">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="main-container">
+      <div id="canvas-container">
+        <canvas id="flight-control" width="800px" height="800px"></canvas>
+      </div>
+      <div id="buttons-container">
+          <button onClick="rescale(1)" type="button">x1</button><br/><br/>
+          <button onClick="rescale(2)" type="button">x2</button><br/><br/>
+          <button onClick="rescale(3)" type="button">x3</button><br/><br/>
+          <button onClick="rescale(4)" type="button">x4</button><br/><br/>
+          <button onClick="rescale(5)" type="button">x5</button><br/><br/><br/><br/>
+          <button onClick="check()" type="button">Check</button><br/><br/><br/><br/>
+          <button onClick="reset()" type="button">Reset</button>
+      </div>
+    </div>
+  </body>
+  <script src="./flight-control.js"></script>
+</html>
