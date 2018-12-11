@@ -19,6 +19,12 @@
   overflow: hidden;
 }
 
+#g-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
 button {
   padding: 15px;
   width: 80px;
